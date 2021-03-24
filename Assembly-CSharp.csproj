@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\__Scripts\ChangeBodyColour.cs" />
      <Compile Include="Assets\__Scripts\EnemyFollow.cs" />
      <Compile Include="Assets\__Scripts\EnemyTouch.cs" />
      <Compile Include="Assets\__Scripts\PlayerMovement.cs" />
