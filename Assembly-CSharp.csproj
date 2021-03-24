@@ -37,7 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\__Scripts\EnemyFollow.cs" />
+     <Compile Include="Assets\__Scripts\EnemyTouch.cs" />
      <Compile Include="Assets\__Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\__Scripts\Teleporter.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
