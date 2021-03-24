@@ -1,9 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Scenes/Shop.unity
-=======
-- path: Assets/_Scenes/Level1.unity
->>>>>>> 767639103d99fbe935d2f0e357854fd477898a6c
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []
