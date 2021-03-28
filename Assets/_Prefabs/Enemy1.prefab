@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8642231935548422743}
   - component: {fileID: 8642231935548422741}
   - component: {fileID: 8642231935548422740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7, y: 9.25}
+  m_Size: {x: 0.56, y: 0.74}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -97,7 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d37411f0c609ab749af084e34a98f87e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  maxHealth: 100
+  speed: 8
 --- !u!61 &8642231935548422741
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -116,7 +117,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 7, y: 9.25}
-    newSize: {x: 7, y: 9.25}
+    newSize: {x: 0.56, y: 0.74}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

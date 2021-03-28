@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     Vector2 movement;
 
+    public GameObject projectilePrefab;
+    public float projectileSpeed = 40;
 
     // Update is called once per frame
     void Update()
@@ -22,6 +24,18 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            TempFire();
+        }
+
+        void TempFire()
+        {
+            GameObject projGO = Instantiate<GameObject>(projectilePrefab);
+            projGO.transform.position = transform.position;
+            Rigidbody rigidB = projGO.GetComponent<Rigidbody>();
+            rigidB.velocity = Vector3.up * projectileSpeed;
+        }
     }
 
     void FixedUpdate()
